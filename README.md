@@ -15,9 +15,13 @@
 - **과제1 코드의 실행 스크린샷**
   - 입력 시 힌트 텍스트가 제거되며 글자색이 검은색으로 정상 유지됨
   
-<img width="1016" height="525" alt="로그인성공" src="https://github.com/user-attachments/assets/58d46b70-1224-43a0-8af1-b5e6b028dbb6" />
+<img width="1016" height="525" alt="로그인성공" src="https://github.com/user-attachments/assets/58d46b70-1224-43a0-8af1-b5e6b028dbb6" 
+    />
 <img width="1103" height="505" alt="로그인 실패" src="https://github.com/user-attachments/assets/df62e855-4f93-4539-bafd-307cd3f33953" />
+
 ## 기본 화면
+
+
 <img width="515" height="528" alt="로그인 실행창" src="https://github.com/user-attachments/assets/0a2e1814-8da6-4ae4-8234-24b5703ebaef" />
 
 
