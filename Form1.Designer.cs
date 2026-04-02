@@ -80,6 +80,7 @@
             btnLogin.TabIndex = 3;
             btnLogin.Text = "로그인";
             btnLogin.UseVisualStyleBackColor = false;
+            btnLogin.Click += btnLogin_Click;
             // 
             // lblAppName
             // 
@@ -92,6 +93,7 @@
             Controls.Add(label1);
             Name = "lblAppName";
             Text = "Form1";
+            Load += lblAppName_Load;
             ResumeLayout(false);
             PerformLayout();
         }

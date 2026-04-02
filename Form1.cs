@@ -54,6 +54,31 @@ namespace LoginScreen
             }
         }
 
-       
+        private void lblAppName_Load(object sender, EventArgs e)
+        {
+
+        }
+
+
+        private void btnLogin_Click(object sender, EventArgs e)
+        {
+           
+            string myID = "1234";
+            string myPW = "yuiop";
+
+           
+            string inputID = txtID.Text;
+            string inputPW = txtPW.Text;
+
+          
+            if (inputID == myID && inputPW == myPW)
+            {
+                MessageBox.Show("로그인 성공!", "알림", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+            else
+            {
+                MessageBox.Show("로그인 실패~", "에러", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
     }
 }
