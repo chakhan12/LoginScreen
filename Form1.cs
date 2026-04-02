@@ -44,7 +44,7 @@ namespace LoginScreen
         }
         private void txtPW_Leave(object sender, EventArgs e)
         {
-            if (string.IsNullOrWhiteSpace(txtID.Text))
+            if (string.IsNullOrWhiteSpace(txtPW.Text))
             {
                 txtPW.UseSystemPasswordChar = false;
                 txtPW.Text = "패스워드";
