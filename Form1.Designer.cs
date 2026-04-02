@@ -54,6 +54,8 @@
             txtID.TabIndex = 1;
             txtID.Text = "아이디";
             txtID.TextChanged += txtID_TextChanged;
+            txtID.Enter += txtID_Enter;
+            txtID.Leave += txtID_Leave;
             // 
             // txtPW
             // 
@@ -64,7 +66,8 @@
             txtPW.Size = new Size(361, 70);
             txtPW.TabIndex = 2;
             txtPW.Text = "패스워드";
-           
+            txtPW.Enter += txtPW_Enter;
+            txtPW.Leave += txtPW_Leave;
             // 
             // btnLogin
             // 
@@ -77,7 +80,6 @@
             btnLogin.TabIndex = 3;
             btnLogin.Text = "로그인";
             btnLogin.UseVisualStyleBackColor = false;
-         
             // 
             // lblAppName
             // 
@@ -90,7 +92,6 @@
             Controls.Add(label1);
             Name = "lblAppName";
             Text = "Form1";
-           
             ResumeLayout(false);
             PerformLayout();
         }

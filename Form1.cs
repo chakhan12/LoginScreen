@@ -49,11 +49,11 @@ namespace LoginScreen
                 txtPW.UseSystemPasswordChar = false;
                 txtPW.Text = "패스워드";
                 txtPW.ForeColor = Color.Silver;
-          
+
 
             }
         }
 
-     
+       
     }
 }
